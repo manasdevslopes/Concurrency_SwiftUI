@@ -66,3 +66,18 @@ struct ConcurrencyApp: App {
    }
  }
  */
+
+/*
+ Structured Concurrency
+ 
+ 1. Async Let - async let
+ 2. Task Group - group.addTask
+ 3. Unstructured Tasks - Calling ASync Func in non-async environment. For Eg - Calling async func in Button Action.
+ Eg - Button {
+ Task {
+ await asyncFunc()
+ }
+ }
+ 4. Detached Tasks
+ 5. Task Cancellation - Task.checkCancellation()
+ */
