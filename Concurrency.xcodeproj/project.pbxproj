@@ -44,6 +44,9 @@
 		FD444D092BFB6D730032FCF1 /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
 		FD444D0C2BFB6F280032FCF1 /* RandomQuoteAndImagesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImagesConstants.swift; sourceTree = "<group>"; };
 		FD444D0E2BFB73A10032FCF1 /* RandomImageListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageListVM.swift; sourceTree = "<group>"; };
+		FD444D112BFB83780032FCF1 /* AsyncSeqPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSeqPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD444D122BFB89080032FCF1 /* Build-In-AsyncSequences.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Build-In-AsyncSequences.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FD444D132BFB8E420032FCF1 /* Adapting-Async-Sequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Adapting-Async-Sequence.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FDABB4402BF2659600E27601 /* Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDABB4432BF2659600E27601 /* ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyApp.swift; sourceTree = "<group>"; };
 		FDABB4452BF2659600E27601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +179,16 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		FD444D102BFB834A0032FCF1 /* AsyncSequence */ = {
+			isa = PBXGroup;
+			children = (
+				FD444D112BFB83780032FCF1 /* AsyncSeqPlayground.playground */,
+				FD444D122BFB89080032FCF1 /* Build-In-AsyncSequences.playground */,
+				FD444D132BFB8E420032FCF1 /* Adapting-Async-Sequence.playground */,
+			);
+			path = AsyncSequence;
+			sourceTree = "<group>";
+		};
 		FDABB4372BF2659500E27601 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				FDABB4432BF2659600E27601 /* ConcurrencyApp.swift */,
+				FD444D102BFB834A0032FCF1 /* AsyncSequence */,
 				FD444D002BFB6BCA0032FCF1 /* ConcurrencyTasks_Part_8 */,
 				FDC740CA2BF8B6BB00DB08CB /* Continuation_Part_5 */,
 				FDABB4512BF2723000E27601 /* Async_Await_Part_2 */,
