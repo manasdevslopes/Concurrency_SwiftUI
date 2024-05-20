@@ -78,6 +78,13 @@ struct ConcurrencyApp: App {
  await asyncFunc()
  }
  }
- 4. Detached Tasks
+ 4. Detached Tasks - when particular detached Task is not really going to be inheriting anything from their parent which includ priorities, task locals everything
+ func updateUI() async {
+     let thumbnails = await fetchThumbnails()
+     Task.detached(priority: .background) {
+         writeToCache(images: thumbnails)
+     }
+ }
+ 
  5. Task Cancellation - Task.checkCancellation()
  */
