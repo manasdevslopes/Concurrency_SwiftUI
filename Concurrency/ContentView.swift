@@ -19,7 +19,9 @@ struct ContentView: View {
     
     //      DatesApp()
     //      NewsSourceListScreen()
-    RandomQuoteAndImages()
+    //    RandomQuoteAndImages()
+    
+    BankAccountApp()
   }
 }
 

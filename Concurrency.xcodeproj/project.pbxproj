@@ -15,6 +15,8 @@
 		FD1131022BF8CBF10090E1C8 /* NewsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1131012BF8CBF10090E1C8 /* NewsSource.swift */; };
 		FD1131042BF8CC6F0090E1C8 /* NewsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1131032BF8CC6F0090E1C8 /* NewsArticle.swift */; };
 		FD1131062BF8D0CA0090E1C8 /* NewsArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1131052BF8D0CA0090E1C8 /* NewsArticleListViewModel.swift */; };
+		FD3A9C572C03536800E5B2BF /* fooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A9C562C03536800E5B2BF /* fooApp.swift */; };
+		FD3A9C592C035FB600E5B2BF /* BankAccountApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3A9C582C035FB600E5B2BF /* BankAccountApp.swift */; };
 		FD444D022BFB6CA00032FCF1 /* RandomQuoteAndImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD444D012BFB6CA00032FCF1 /* RandomQuoteAndImages.swift */; };
 		FD444D082BFB6D020032FCF1 /* WebserviceRandomQuoteAndImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD444D072BFB6D020032FCF1 /* WebserviceRandomQuoteAndImages.swift */; };
 		FD444D0A2BFB6D730032FCF1 /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD444D092BFB6D730032FCF1 /* RandomImage.swift */; };
@@ -39,6 +41,8 @@
 		FD1131012BF8CBF10090E1C8 /* NewsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSource.swift; sourceTree = "<group>"; };
 		FD1131032BF8CC6F0090E1C8 /* NewsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticle.swift; sourceTree = "<group>"; };
 		FD1131052BF8D0CA0090E1C8 /* NewsArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleListViewModel.swift; sourceTree = "<group>"; };
+		FD3A9C562C03536800E5B2BF /* fooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fooApp.swift; sourceTree = "<group>"; };
+		FD3A9C582C035FB600E5B2BF /* BankAccountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountApp.swift; sourceTree = "<group>"; };
 		FD444D012BFB6CA00032FCF1 /* RandomQuoteAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteAndImages.swift; sourceTree = "<group>"; };
 		FD444D072BFB6D020032FCF1 /* WebserviceRandomQuoteAndImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceRandomQuoteAndImages.swift; sourceTree = "<group>"; };
 		FD444D092BFB6D730032FCF1 /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
@@ -126,6 +130,15 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		FD3A9C552C03530200E5B2BF /* Actors_Part_11 */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A9C562C03536800E5B2BF /* fooApp.swift */,
+				FD3A9C582C035FB600E5B2BF /* BankAccountApp.swift */,
+			);
+			path = Actors_Part_11;
+			sourceTree = "<group>";
+		};
 		FD444D002BFB6BCA0032FCF1 /* ConcurrencyTasks_Part_8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				FDABB4432BF2659600E27601 /* ConcurrencyApp.swift */,
+				FD3A9C552C03530200E5B2BF /* Actors_Part_11 */,
 				FD444D102BFB834A0032FCF1 /* AsyncSequence */,
 				FD444D002BFB6BCA0032FCF1 /* ConcurrencyTasks_Part_8 */,
 				FDC740CA2BF8B6BB00DB08CB /* Continuation_Part_5 */,
@@ -322,6 +336,7 @@
 				FD1131002BF8C7440090E1C8 /* Constants.swift in Sources */,
 				FD444D0A2BFB6D730032FCF1 /* RandomImage.swift in Sources */,
 				FD1131042BF8CC6F0090E1C8 /* NewsArticle.swift in Sources */,
+				FD3A9C572C03536800E5B2BF /* fooApp.swift in Sources */,
 				FDABB4462BF2659600E27601 /* ContentView.swift in Sources */,
 				FDABB4532BF2725100E27601 /* DatesApp.swift in Sources */,
 				FDB9F31B2BF6530E00594AE8 /* Webservice.swift in Sources */,
@@ -334,6 +349,7 @@
 				FD1130FE2BF8C5A10090E1C8 /* WebserviceNewsApp.swift in Sources */,
 				FD1131062BF8D0CA0090E1C8 /* NewsArticleListViewModel.swift in Sources */,
 				FD444D022BFB6CA00032FCF1 /* RandomQuoteAndImages.swift in Sources */,
+				FD3A9C592C035FB600E5B2BF /* BankAccountApp.swift in Sources */,
 				FD444D0F2BFB73A10032FCF1 /* RandomImageListVM.swift in Sources */,
 				FD1130FA2BF8C14F0090E1C8 /* NewsSourceListScreen.swift in Sources */,
 				FD444D0D2BFB6F280032FCF1 /* RandomQuoteAndImagesConstants.swift in Sources */,

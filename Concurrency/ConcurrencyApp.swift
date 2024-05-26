@@ -93,3 +93,11 @@ struct ConcurrencyApp: App {
  Async Sequence -
  
  */
+
+/*
+ Actors
+  - Protect mutable state
+  - Accessing Actor isolated states
+  - Main Actor
+  - Nonisolated - nonisolated keyword
+ */
